@@ -7,7 +7,7 @@ A very basic node express and typescript template to start your projects
 
 #### Install required dependencies
 
-```http
+```bash
   npm i
 ```
 
