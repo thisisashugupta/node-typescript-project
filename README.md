@@ -2,14 +2,13 @@
 
 A very basic node express and typescript template to start your projects
 
-
 ## Getting Started
 
-#### Install required dependencies
+### Install required dependencies
 
 ```bash
-  npm i
+  yarn
 ```
 
-thats it :)
-you know whats next
+that's it :)
+you know what's next

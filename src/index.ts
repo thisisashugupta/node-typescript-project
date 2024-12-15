@@ -1,10 +1,10 @@
-const a : string = "helo man";
-console.log(a);
-import express from "express";
-const app = express();
-app.get("/", (req ,res) => {
-    res.send("3000 okay bhaiya");
-})
-app.listen("3000", () => {
-    console.log('server started at 3000 port');    
-})
+import express from 'express';
+
+const app: express.Express = express();
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+app.get('/', (req: express.Request, res: express.Response) => {})
+
+app.listen(8080, () => console.log('Listening on port 8080'));
