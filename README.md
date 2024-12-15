@@ -12,4 +12,4 @@ A very basic node express and typescript template to start your projects
 ```
 
 thats it :)
-you know whats nexD
+you know whats next
